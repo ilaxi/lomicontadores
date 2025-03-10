@@ -1,0 +1,750 @@
+[gd_scene load_steps=4 format=3 uid="uid://3uc8rqwbw0uc"]
+
+[ext_resource type="Script" path="res://ESCENAS MAYO/mayofranco.gd" id="1_3eflw"]
+[ext_resource type="Texture2D" uid="uid://c0m2voh1sjh7k" path="res://SPRITES/derFle.png" id="2_7wpo8"]
+[ext_resource type="Texture2D" uid="uid://bb7bhw5pkte4u" path="res://SPRITES/fondone.png" id="3_qu0qp"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(104, 48)
+script = ExtResource("1_3eflw")
+
+[node name="b1" type="Button" parent="."]
+offset_left = 457.0
+offset_top = 640.0
+offset_right = 657.0
+offset_bottom = 680.0
+text = "Seleccionar Mes"
+
+[node name="FleDer" type="Sprite2D" parent="."]
+position = Vector2(1080, 56)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_7wpo8")
+
+[node name="Button" type="Button" parent="FleDer"]
+offset_left = -128.0
+offset_top = -128.0
+offset_right = 128.0
+offset_bottom = 128.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(174, 327.5)
+scale = Vector2(1, 0.845703)
+texture = ExtResource("3_qu0qp")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(444, 327.5)
+scale = Vector2(1, 0.845703)
+texture = ExtResource("3_qu0qp")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(714, 327.5)
+scale = Vector2(1, 0.845703)
+texture = ExtResource("3_qu0qp")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(984, 327.5)
+scale = Vector2(1, 0.845703)
+texture = ExtResource("3_qu0qp")
+
+[node name="Semana1" type="Label" parent="."]
+z_index = 1
+offset_left = 85.0
+offset_top = 118.0
+offset_right = 264.0
+offset_bottom = 187.0
+theme_override_font_sizes/font_size = 36
+text = "Semana 1:"
+
+[node name="DIA1" type="LineEdit" parent="Semana1"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 61.0
+offset_right = 101.063
+offset_bottom = 92.0
+
+[node name="DIA2" type="LineEdit" parent="Semana1"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 101.0
+offset_right = 101.063
+offset_bottom = 132.0
+
+[node name="DIA3" type="LineEdit" parent="Semana1"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 141.0
+offset_right = 101.063
+offset_bottom = 172.0
+
+[node name="DIA4" type="LineEdit" parent="Semana1"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 181.0
+offset_right = 101.063
+offset_bottom = 212.0
+
+[node name="DIA5" type="LineEdit" parent="Semana1"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 221.0
+offset_right = 101.063
+offset_bottom = 252.0
+
+[node name="DIA6" type="LineEdit" parent="Semana1"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 261.0
+offset_right = 101.063
+offset_bottom = 292.0
+
+[node name="DIA7" type="LineEdit" parent="Semana1"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 301.0
+offset_right = 101.063
+offset_bottom = 332.0
+
+[node name="Semana2" type="Label" parent="."]
+z_index = 1
+offset_left = 354.0
+offset_top = 118.0
+offset_right = 533.0
+offset_bottom = 168.0
+theme_override_font_sizes/font_size = 36
+text = "Semana 2:"
+
+[node name="DIA1" type="LineEdit" parent="Semana2"]
+z_index = 1
+layout_mode = 0
+offset_left = 38.0
+offset_top = 62.0
+offset_right = 105.063
+offset_bottom = 93.0
+
+[node name="DIA2" type="LineEdit" parent="Semana2"]
+z_index = 1
+layout_mode = 0
+offset_left = 38.0
+offset_top = 102.0
+offset_right = 105.063
+offset_bottom = 133.0
+
+[node name="DIA3" type="LineEdit" parent="Semana2"]
+z_index = 1
+layout_mode = 0
+offset_left = 38.0
+offset_top = 142.0
+offset_right = 105.063
+offset_bottom = 173.0
+
+[node name="DIA4" type="LineEdit" parent="Semana2"]
+z_index = 1
+layout_mode = 0
+offset_left = 38.0
+offset_top = 182.0
+offset_right = 105.063
+offset_bottom = 213.0
+
+[node name="DIA5" type="LineEdit" parent="Semana2"]
+z_index = 1
+layout_mode = 0
+offset_left = 38.0
+offset_top = 222.0
+offset_right = 105.063
+offset_bottom = 253.0
+
+[node name="DIA6" type="LineEdit" parent="Semana2"]
+z_index = 1
+layout_mode = 0
+offset_left = 38.0
+offset_top = 262.0
+offset_right = 105.063
+offset_bottom = 293.0
+
+[node name="DIA7" type="LineEdit" parent="Semana2"]
+z_index = 1
+layout_mode = 0
+offset_left = 38.0
+offset_top = 302.0
+offset_right = 105.063
+offset_bottom = 333.0
+
+[node name="DIA8" type="LineEdit" parent="Semana2"]
+z_index = 1
+layout_mode = 0
+offset_left = 39.0
+offset_top = 347.0
+offset_right = 106.063
+offset_bottom = 378.0
+
+[node name="Semana3" type="Label" parent="."]
+z_index = 1
+offset_left = 618.0
+offset_top = 117.0
+offset_right = 858.0
+offset_bottom = 167.0
+theme_override_font_sizes/font_size = 36
+text = "Semana 3:"
+
+[node name="DIA1" type="LineEdit" parent="Semana3"]
+z_index = 1
+layout_mode = 0
+offset_left = 46.0
+offset_top = 62.0
+offset_right = 113.063
+offset_bottom = 93.0
+
+[node name="DIA2" type="LineEdit" parent="Semana3"]
+z_index = 1
+layout_mode = 0
+offset_left = 46.0
+offset_top = 102.0
+offset_right = 113.063
+offset_bottom = 133.0
+
+[node name="DIA3" type="LineEdit" parent="Semana3"]
+z_index = 1
+layout_mode = 0
+offset_left = 46.0
+offset_top = 142.0
+offset_right = 113.063
+offset_bottom = 173.0
+
+[node name="DIA4" type="LineEdit" parent="Semana3"]
+z_index = 1
+layout_mode = 0
+offset_left = 46.0
+offset_top = 182.0
+offset_right = 113.063
+offset_bottom = 213.0
+
+[node name="DIA5" type="LineEdit" parent="Semana3"]
+z_index = 1
+layout_mode = 0
+offset_left = 46.0
+offset_top = 222.0
+offset_right = 113.063
+offset_bottom = 253.0
+
+[node name="DIA6" type="LineEdit" parent="Semana3"]
+z_index = 1
+layout_mode = 0
+offset_left = 46.0
+offset_top = 262.0
+offset_right = 113.063
+offset_bottom = 293.0
+
+[node name="DIA7" type="LineEdit" parent="Semana3"]
+z_index = 1
+layout_mode = 0
+offset_left = 46.0
+offset_top = 302.0
+offset_right = 113.063
+offset_bottom = 333.0
+
+[node name="DIA8" type="LineEdit" parent="Semana3"]
+z_index = 1
+layout_mode = 0
+offset_left = 47.0
+offset_top = 347.0
+offset_right = 114.063
+offset_bottom = 378.0
+
+[node name="Semana4" type="Label" parent="."]
+z_index = 1
+offset_left = 888.0
+offset_top = 117.0
+offset_right = 1067.0
+offset_bottom = 167.0
+theme_override_font_sizes/font_size = 36
+text = "Semana 4:"
+
+[node name="DIA1" type="LineEdit" parent="Semana4"]
+z_index = 1
+layout_mode = 0
+offset_left = 48.0
+offset_top = 62.0
+offset_right = 115.063
+offset_bottom = 93.0
+
+[node name="DIA2" type="LineEdit" parent="Semana4"]
+z_index = 1
+layout_mode = 0
+offset_left = 48.0
+offset_top = 102.0
+offset_right = 115.063
+offset_bottom = 133.0
+
+[node name="DIA3" type="LineEdit" parent="Semana4"]
+z_index = 1
+layout_mode = 0
+offset_left = 48.0
+offset_top = 142.0
+offset_right = 115.063
+offset_bottom = 173.0
+
+[node name="DIA4" type="LineEdit" parent="Semana4"]
+z_index = 1
+layout_mode = 0
+offset_left = 48.0
+offset_top = 182.0
+offset_right = 115.063
+offset_bottom = 213.0
+
+[node name="DIA5" type="LineEdit" parent="Semana4"]
+z_index = 1
+layout_mode = 0
+offset_left = 48.0
+offset_top = 222.0
+offset_right = 115.063
+offset_bottom = 253.0
+
+[node name="DIA6" type="LineEdit" parent="Semana4"]
+z_index = 1
+layout_mode = 0
+offset_left = 48.0
+offset_top = 262.0
+offset_right = 115.063
+offset_bottom = 293.0
+
+[node name="DIA7" type="LineEdit" parent="Semana4"]
+z_index = 1
+layout_mode = 0
+offset_left = 48.0
+offset_top = 302.0
+offset_right = 115.063
+offset_bottom = 333.0
+
+[node name="DIA8" type="LineEdit" parent="Semana4"]
+z_index = 1
+layout_mode = 0
+offset_left = 49.0
+offset_top = 347.0
+offset_right = 116.063
+offset_bottom = 378.0
+
+[node name="PromMes" type="Label" parent="."]
+offset_left = 624.0
+offset_top = 560.0
+offset_right = 1146.0
+offset_bottom = 679.0
+theme_override_font_sizes/font_size = 40
+text = "PROMEDIO MES:"
+
+[node name="SumaMes" type="Label" parent="."]
+offset_left = 40.0
+offset_top = 560.0
+offset_right = 562.0
+offset_bottom = 679.0
+theme_override_font_sizes/font_size = 40
+text = "SUMA TOTAL MES:"
+
+[node name="Nombre" type="Label" parent="."]
+offset_left = 432.0
+offset_top = 12.0
+offset_right = 686.0
+offset_bottom = 99.0
+theme_override_font_sizes/font_size = 63
+text = "FRANCO"
+
+[node name="Mes" type="Label" parent="."]
+offset_left = -72.0
+offset_top = -36.0
+offset_right = 48.0
+offset_bottom = 14.0
+theme_override_font_sizes/font_size = 36
+text = "MAYO"
+
+[node name="ContainerS1" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 323.0
+offset_top = 13.0
+offset_right = 363.0
+offset_bottom = 53.0
+
+[node name="dia 1" type="Label" parent="ContainerS1"]
+z_index = 1
+layout_mode = 0
+offset_left = -267.0
+offset_top = 171.0
+offset_right = -215.0
+offset_bottom = 199.0
+theme_override_font_sizes/font_size = 20
+text = "dia 1:"
+
+[node name="dia 2" type="Label" parent="ContainerS1"]
+z_index = 1
+layout_mode = 0
+offset_left = -267.0
+offset_top = 211.0
+offset_right = -215.0
+offset_bottom = 239.0
+theme_override_font_sizes/font_size = 20
+text = "dia 2:"
+
+[node name="dia 3" type="Label" parent="ContainerS1"]
+z_index = 1
+layout_mode = 0
+offset_left = -267.0
+offset_top = 251.0
+offset_right = -215.0
+offset_bottom = 279.0
+theme_override_font_sizes/font_size = 20
+text = "dia 3:"
+
+[node name="dia 4" type="Label" parent="ContainerS1"]
+z_index = 1
+layout_mode = 0
+offset_left = -267.0
+offset_top = 291.0
+offset_right = -215.0
+offset_bottom = 319.0
+theme_override_font_sizes/font_size = 20
+text = "dia 4:"
+
+[node name="dia 5" type="Label" parent="ContainerS1"]
+z_index = 1
+layout_mode = 0
+offset_left = -267.0
+offset_top = 331.0
+offset_right = -215.0
+offset_bottom = 359.0
+theme_override_font_sizes/font_size = 20
+text = "dia 5:"
+
+[node name="dia 6" type="Label" parent="ContainerS1"]
+z_index = 1
+layout_mode = 0
+offset_left = -267.0
+offset_top = 371.0
+offset_right = -215.0
+offset_bottom = 399.0
+theme_override_font_sizes/font_size = 20
+text = "dia 6:"
+
+[node name="dia 7" type="Label" parent="ContainerS1"]
+z_index = 1
+layout_mode = 0
+offset_left = -267.0
+offset_top = 411.0
+offset_right = -215.0
+offset_bottom = 439.0
+theme_override_font_sizes/font_size = 20
+text = "dia 7:"
+
+[node name="ContainerS2" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 128.0
+offset_top = 510.0
+offset_right = 168.0
+offset_bottom = 550.0
+
+[node name="dia 1" type="Label" parent="ContainerS2"]
+z_index = 1
+layout_mode = 2
+offset_left = 194.0
+offset_top = -329.0
+offset_right = 246.0
+offset_bottom = -301.0
+theme_override_font_sizes/font_size = 20
+text = "dia 8:"
+
+[node name="dia 2" type="Label" parent="ContainerS2"]
+z_index = 1
+layout_mode = 2
+offset_left = 194.0
+offset_top = -289.0
+offset_right = 246.0
+offset_bottom = -261.0
+theme_override_font_sizes/font_size = 20
+text = "dia 9:"
+
+[node name="dia 3" type="Label" parent="ContainerS2"]
+z_index = 1
+layout_mode = 2
+offset_left = 194.0
+offset_top = -249.0
+offset_right = 258.0
+offset_bottom = -221.0
+theme_override_font_sizes/font_size = 20
+text = "dia 10:"
+
+[node name="dia 4" type="Label" parent="ContainerS2"]
+z_index = 1
+layout_mode = 2
+offset_left = 194.0
+offset_top = -209.0
+offset_right = 258.0
+offset_bottom = -181.0
+theme_override_font_sizes/font_size = 20
+text = "dia 11:"
+
+[node name="dia 5" type="Label" parent="ContainerS2"]
+z_index = 1
+layout_mode = 2
+offset_left = 194.0
+offset_top = -169.0
+offset_right = 258.0
+offset_bottom = -141.0
+theme_override_font_sizes/font_size = 20
+text = "dia 12:"
+
+[node name="dia 6" type="Label" parent="ContainerS2"]
+z_index = 1
+layout_mode = 2
+offset_left = 194.0
+offset_top = -129.0
+offset_right = 258.0
+offset_bottom = -101.0
+theme_override_font_sizes/font_size = 20
+text = "dia 13:"
+
+[node name="dia 7" type="Label" parent="ContainerS2"]
+z_index = 1
+layout_mode = 2
+offset_left = 194.0
+offset_top = -89.0
+offset_right = 258.0
+offset_bottom = -61.0
+theme_override_font_sizes/font_size = 20
+text = "dia 14:"
+
+[node name="dia 8" type="Label" parent="ContainerS2"]
+z_index = 1
+layout_mode = 2
+offset_left = 194.0
+offset_top = -45.0
+offset_right = 258.0
+offset_bottom = -17.0
+theme_override_font_sizes/font_size = 20
+text = "dia 15:"
+
+[node name="ContainerS3" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 129.0
+offset_top = 510.0
+offset_right = 169.0
+offset_bottom = 550.0
+
+[node name="dia 1" type="Label" parent="ContainerS3"]
+z_index = 1
+layout_mode = 2
+offset_left = 464.0
+offset_top = -329.0
+offset_right = 528.0
+offset_bottom = -301.0
+theme_override_font_sizes/font_size = 20
+text = "dia 16:"
+
+[node name="dia 2" type="Label" parent="ContainerS3"]
+z_index = 1
+layout_mode = 2
+offset_left = 464.0
+offset_top = -289.0
+offset_right = 528.0
+offset_bottom = -261.0
+theme_override_font_sizes/font_size = 20
+text = "dia 17:"
+
+[node name="dia 3" type="Label" parent="ContainerS3"]
+z_index = 1
+layout_mode = 2
+offset_left = 464.0
+offset_top = -249.0
+offset_right = 528.0
+offset_bottom = -221.0
+theme_override_font_sizes/font_size = 20
+text = "dia 18:"
+
+[node name="dia 4" type="Label" parent="ContainerS3"]
+z_index = 1
+layout_mode = 2
+offset_left = 464.0
+offset_top = -209.0
+offset_right = 528.0
+offset_bottom = -181.0
+theme_override_font_sizes/font_size = 20
+text = "dia 19:"
+
+[node name="dia 5" type="Label" parent="ContainerS3"]
+z_index = 1
+layout_mode = 2
+offset_left = 464.0
+offset_top = -169.0
+offset_right = 528.0
+offset_bottom = -141.0
+theme_override_font_sizes/font_size = 20
+text = "dia 20:"
+
+[node name="dia 6" type="Label" parent="ContainerS3"]
+z_index = 1
+layout_mode = 2
+offset_left = 464.0
+offset_top = -129.0
+offset_right = 528.0
+offset_bottom = -101.0
+theme_override_font_sizes/font_size = 20
+text = "dia 21:"
+
+[node name="dia 7" type="Label" parent="ContainerS3"]
+z_index = 1
+layout_mode = 2
+offset_left = 464.0
+offset_top = -89.0
+offset_right = 528.0
+offset_bottom = -61.0
+theme_override_font_sizes/font_size = 20
+text = "dia 22:"
+
+[node name="dia 8" type="Label" parent="ContainerS3"]
+z_index = 1
+layout_mode = 2
+offset_left = 464.0
+offset_top = -45.0
+offset_right = 528.0
+offset_bottom = -17.0
+theme_override_font_sizes/font_size = 20
+text = "dia 23:"
+
+[node name="ContainerS4" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 128.0
+offset_top = 510.0
+offset_right = 168.0
+offset_bottom = 550.0
+
+[node name="dia 1" type="Label" parent="ContainerS4"]
+z_index = 1
+layout_mode = 2
+offset_left = 736.0
+offset_top = -329.0
+offset_right = 800.0
+offset_bottom = -301.0
+theme_override_font_sizes/font_size = 20
+text = "dia 24:"
+
+[node name="dia 2" type="Label" parent="ContainerS4"]
+z_index = 1
+layout_mode = 2
+offset_left = 736.0
+offset_top = -289.0
+offset_right = 800.0
+offset_bottom = -261.0
+theme_override_font_sizes/font_size = 20
+text = "dia 25:"
+
+[node name="dia 3" type="Label" parent="ContainerS4"]
+z_index = 1
+layout_mode = 2
+offset_left = 736.0
+offset_top = -249.0
+offset_right = 800.0
+offset_bottom = -221.0
+theme_override_font_sizes/font_size = 20
+text = "dia 26:"
+
+[node name="dia 4" type="Label" parent="ContainerS4"]
+z_index = 1
+layout_mode = 2
+offset_left = 736.0
+offset_top = -209.0
+offset_right = 800.0
+offset_bottom = -181.0
+theme_override_font_sizes/font_size = 20
+text = "dia 27:"
+
+[node name="dia 5" type="Label" parent="ContainerS4"]
+z_index = 1
+layout_mode = 2
+offset_left = 736.0
+offset_top = -169.0
+offset_right = 800.0
+offset_bottom = -141.0
+theme_override_font_sizes/font_size = 20
+text = "dia 28:"
+
+[node name="dia 6" type="Label" parent="ContainerS4"]
+z_index = 1
+layout_mode = 2
+offset_left = 736.0
+offset_top = -129.0
+offset_right = 800.0
+offset_bottom = -101.0
+theme_override_font_sizes/font_size = 20
+text = "dia 29:"
+
+[node name="dia 7" type="Label" parent="ContainerS4"]
+z_index = 1
+layout_mode = 2
+offset_left = 736.0
+offset_top = -89.0
+offset_right = 800.0
+offset_bottom = -61.0
+theme_override_font_sizes/font_size = 20
+text = "dia 30:"
+
+[node name="dia 8" type="Label" parent="ContainerS4"]
+z_index = 1
+layout_mode = 2
+offset_left = 736.0
+offset_top = -45.0
+offset_right = 800.0
+offset_bottom = -17.0
+theme_override_font_sizes/font_size = 20
+text = "dia 31:"
+
+[node name="SumaS2" type="Label" parent="."]
+offset_left = 329.0
+offset_top = 509.0
+offset_right = 403.0
+offset_bottom = 537.0
+theme_override_font_sizes/font_size = 20
+text = "TOTAL: "
+
+[node name="SumaS3" type="Label" parent="."]
+offset_left = 596.0
+offset_top = 509.0
+offset_right = 670.0
+offset_bottom = 537.0
+theme_override_font_sizes/font_size = 20
+text = "TOTAL: "
+
+[node name="SumaS4" type="Label" parent="."]
+offset_left = 864.0
+offset_top = 509.0
+offset_right = 938.0
+offset_bottom = 537.0
+theme_override_font_sizes/font_size = 20
+text = "TOTAL: "
+
+[node name="LabelSumaS1" type="Label" parent="."]
+z_index = 1
+offset_left = 128.0
+offset_top = 510.0
+offset_right = 246.0
+offset_bottom = 565.0
+theme_override_font_sizes/font_size = 20
+
+[node name="TOTAL" type="Label" parent="."]
+z_index = 1
+offset_left = 55.0
+offset_top = 509.0
+offset_right = 123.0
+offset_bottom = 537.0
+theme_override_font_sizes/font_size = 20
+text = "TOTAL:"
+
+[node name="BUILD" type="Label" parent="."]
+offset_left = 1200.0
+offset_top = 696.0
+offset_right = 1256.0
+offset_bottom = 719.0
+theme_override_font_sizes/font_size = 0
+text = "B: 1.0.5"
+
+[connection signal="pressed" from="b1" to="." method="_on_b_1_pressed"]
+[connection signal="pressed" from="FleDer/Button" to="." method="_on_button_pressed"]

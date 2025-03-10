@@ -1,0 +1,828 @@
+[gd_scene load_steps=3 format=3 uid="uid://mtpjoipyo1ht"]
+
+[ext_resource type="Texture2D" uid="uid://bb7bhw5pkte4u" path="res://SPRITES/fondone.png" id="1_epc6e"]
+[ext_resource type="Script" path="res://resumen.gd" id="1_f07hr"]
+
+[node name="Resumen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1.0
+offset_top = 42.0
+offset_right = 1.0
+offset_bottom = 42.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_f07hr")
+
+[node name="MESESMAURI" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ENEROFRANCO" type="Label" parent="MESESMAURI"]
+z_index = 1
+layout_mode = 0
+offset_left = 1099.0
+offset_top = 144.0
+offset_right = 1157.0
+offset_bottom = 167.0
+text = "ENERO:"
+
+[node name="FEBREROFRANCO" type="Label" parent="MESESMAURI"]
+z_index = 1
+layout_mode = 0
+offset_left = 1099.0
+offset_top = 176.0
+offset_right = 1174.0
+offset_bottom = 199.0
+text = "FEBRERO:"
+
+[node name="MARZOFRANCO" type="Label" parent="MESESMAURI"]
+z_index = 1
+layout_mode = 0
+offset_left = 1099.0
+offset_top = 208.0
+offset_right = 1174.0
+offset_bottom = 231.0
+text = "MARZO:"
+
+[node name="ABRILFRANCO" type="Label" parent="MESESMAURI"]
+z_index = 1
+layout_mode = 0
+offset_left = 1099.0
+offset_top = 240.0
+offset_right = 1174.0
+offset_bottom = 263.0
+text = "ABRIL:"
+
+[node name="MAYOFRANCO" type="Label" parent="MESESMAURI"]
+z_index = 1
+layout_mode = 0
+offset_left = 1099.0
+offset_top = 272.0
+offset_right = 1174.0
+offset_bottom = 295.0
+text = "MAYO:"
+
+[node name="JUNIOFRANCO" type="Label" parent="MESESMAURI"]
+z_index = 1
+layout_mode = 0
+offset_left = 1099.0
+offset_top = 304.0
+offset_right = 1174.0
+offset_bottom = 327.0
+text = "JUNIO:"
+
+[node name="JULIOFRANCO" type="Label" parent="MESESMAURI"]
+z_index = 1
+layout_mode = 0
+offset_left = 1099.0
+offset_top = 336.0
+offset_right = 1174.0
+offset_bottom = 359.0
+text = "JULIO:"
+
+[node name="AGOSTOFRANCO" type="Label" parent="MESESMAURI"]
+z_index = 1
+layout_mode = 0
+offset_left = 1099.0
+offset_top = 368.0
+offset_right = 1174.0
+offset_bottom = 391.0
+text = "AGOSTO:"
+
+[node name="SEPTIEMBREFRANCO" type="Label" parent="MESESMAURI"]
+z_index = 1
+layout_mode = 0
+offset_left = 1099.0
+offset_top = 400.0
+offset_right = 1199.0
+offset_bottom = 423.0
+text = "SEPTIEMBRE:"
+
+[node name="OCTUBREFRANCO" type="Label" parent="MESESMAURI"]
+z_index = 1
+layout_mode = 0
+offset_left = 1099.0
+offset_top = 432.0
+offset_right = 1199.0
+offset_bottom = 455.0
+text = "OCTUBRE:"
+
+[node name="NOVIEMBREFRANCO" type="Label" parent="MESESMAURI"]
+z_index = 1
+layout_mode = 0
+offset_left = 1099.0
+offset_top = 464.0
+offset_right = 1199.0
+offset_bottom = 487.0
+text = "NOVIEMBRE:"
+
+[node name="DICIEMBREFRANCO" type="Label" parent="MESESMAURI"]
+z_index = 1
+layout_mode = 0
+offset_left = 1099.0
+offset_top = 496.0
+offset_right = 1199.0
+offset_bottom = 519.0
+text = "DICIEMBRE:"
+
+[node name="MESESAZQUIELY" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ENEROFRANCO" type="Label" parent="MESESAZQUIELY"]
+z_index = 1
+layout_mode = 0
+offset_left = 843.0
+offset_top = 144.0
+offset_right = 901.0
+offset_bottom = 167.0
+text = "ENERO:"
+
+[node name="FEBREROFRANCO" type="Label" parent="MESESAZQUIELY"]
+z_index = 1
+layout_mode = 0
+offset_left = 843.0
+offset_top = 176.0
+offset_right = 918.0
+offset_bottom = 199.0
+text = "FEBRERO:"
+
+[node name="MARZOFRANCO" type="Label" parent="MESESAZQUIELY"]
+z_index = 1
+layout_mode = 0
+offset_left = 843.0
+offset_top = 208.0
+offset_right = 918.0
+offset_bottom = 231.0
+text = "MARZO:"
+
+[node name="ABRILFRANCO" type="Label" parent="MESESAZQUIELY"]
+z_index = 1
+layout_mode = 0
+offset_left = 843.0
+offset_top = 240.0
+offset_right = 918.0
+offset_bottom = 263.0
+text = "ABRIL:"
+
+[node name="MAYOFRANCO" type="Label" parent="MESESAZQUIELY"]
+z_index = 1
+layout_mode = 0
+offset_left = 843.0
+offset_top = 272.0
+offset_right = 918.0
+offset_bottom = 295.0
+text = "MAYO:"
+
+[node name="JUNIOFRANCO" type="Label" parent="MESESAZQUIELY"]
+z_index = 1
+layout_mode = 0
+offset_left = 843.0
+offset_top = 304.0
+offset_right = 918.0
+offset_bottom = 327.0
+text = "JUNIO:"
+
+[node name="JULIOFRANCO" type="Label" parent="MESESAZQUIELY"]
+z_index = 1
+layout_mode = 0
+offset_left = 843.0
+offset_top = 336.0
+offset_right = 918.0
+offset_bottom = 359.0
+text = "JULIO:"
+
+[node name="AGOSTOFRANCO" type="Label" parent="MESESAZQUIELY"]
+z_index = 1
+layout_mode = 0
+offset_left = 843.0
+offset_top = 368.0
+offset_right = 918.0
+offset_bottom = 391.0
+text = "AGOSTO:"
+
+[node name="SEPTIEMBREFRANCO" type="Label" parent="MESESAZQUIELY"]
+z_index = 1
+layout_mode = 0
+offset_left = 843.0
+offset_top = 400.0
+offset_right = 943.0
+offset_bottom = 423.0
+text = "SEPTIEMBRE:"
+
+[node name="OCTUBREFRANCO" type="Label" parent="MESESAZQUIELY"]
+z_index = 1
+layout_mode = 0
+offset_left = 843.0
+offset_top = 432.0
+offset_right = 943.0
+offset_bottom = 455.0
+text = "OCTUBRE:"
+
+[node name="NOVIEMBREFRANCO" type="Label" parent="MESESAZQUIELY"]
+z_index = 1
+layout_mode = 0
+offset_left = 843.0
+offset_top = 464.0
+offset_right = 943.0
+offset_bottom = 487.0
+text = "NOVIEMBRE:"
+
+[node name="DICIEMBREFRANCO" type="Label" parent="MESESAZQUIELY"]
+z_index = 1
+layout_mode = 0
+offset_left = 843.0
+offset_top = 496.0
+offset_right = 943.0
+offset_bottom = 519.0
+text = "DICIEMBRE:"
+
+[node name="MESESWAL" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ENEROFRANCO" type="Label" parent="MESESWAL"]
+z_index = 1
+layout_mode = 0
+offset_left = 587.0
+offset_top = 144.0
+offset_right = 645.0
+offset_bottom = 167.0
+text = "ENERO:"
+
+[node name="FEBREROFRANCO" type="Label" parent="MESESWAL"]
+z_index = 1
+layout_mode = 0
+offset_left = 587.0
+offset_top = 176.0
+offset_right = 662.0
+offset_bottom = 199.0
+text = "FEBRERO:"
+
+[node name="MARZOFRANCO" type="Label" parent="MESESWAL"]
+z_index = 1
+layout_mode = 0
+offset_left = 587.0
+offset_top = 208.0
+offset_right = 662.0
+offset_bottom = 231.0
+text = "MARZO:"
+
+[node name="ABRILFRANCO" type="Label" parent="MESESWAL"]
+z_index = 1
+layout_mode = 0
+offset_left = 587.0
+offset_top = 240.0
+offset_right = 662.0
+offset_bottom = 263.0
+text = "ABRIL:"
+
+[node name="MAYOFRANCO" type="Label" parent="MESESWAL"]
+z_index = 1
+layout_mode = 0
+offset_left = 587.0
+offset_top = 272.0
+offset_right = 662.0
+offset_bottom = 295.0
+text = "MAYO:"
+
+[node name="JUNIOFRANCO" type="Label" parent="MESESWAL"]
+z_index = 1
+layout_mode = 0
+offset_left = 587.0
+offset_top = 304.0
+offset_right = 662.0
+offset_bottom = 327.0
+text = "JUNIO:"
+
+[node name="JULIOFRANCO" type="Label" parent="MESESWAL"]
+z_index = 1
+layout_mode = 0
+offset_left = 587.0
+offset_top = 336.0
+offset_right = 662.0
+offset_bottom = 359.0
+text = "JULIO:"
+
+[node name="AGOSTOFRANCO" type="Label" parent="MESESWAL"]
+z_index = 1
+layout_mode = 0
+offset_left = 587.0
+offset_top = 368.0
+offset_right = 662.0
+offset_bottom = 391.0
+text = "AGOSTO:"
+
+[node name="SEPTIEMBREFRANCO" type="Label" parent="MESESWAL"]
+z_index = 1
+layout_mode = 0
+offset_left = 587.0
+offset_top = 400.0
+offset_right = 687.0
+offset_bottom = 423.0
+text = "SEPTIEMBRE:"
+
+[node name="OCTUBREFRANCO" type="Label" parent="MESESWAL"]
+z_index = 1
+layout_mode = 0
+offset_left = 587.0
+offset_top = 432.0
+offset_right = 687.0
+offset_bottom = 455.0
+text = "OCTUBRE:"
+
+[node name="NOVIEMBREFRANCO" type="Label" parent="MESESWAL"]
+z_index = 1
+layout_mode = 0
+offset_left = 587.0
+offset_top = 464.0
+offset_right = 687.0
+offset_bottom = 487.0
+text = "NOVIEMBRE:"
+
+[node name="DICIEMBREFRANCO" type="Label" parent="MESESWAL"]
+z_index = 1
+layout_mode = 0
+offset_left = 587.0
+offset_top = 496.0
+offset_right = 687.0
+offset_bottom = 519.0
+text = "DICIEMBRE:"
+
+[node name="MESESJOACO" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ENEROFRANCO" type="Label" parent="MESESJOACO"]
+z_index = 2
+layout_mode = 0
+offset_left = 332.0
+offset_top = 144.0
+offset_right = 390.0
+offset_bottom = 167.0
+text = "ENERO:"
+
+[node name="FEBREROFRANCO" type="Label" parent="MESESJOACO"]
+z_index = 1
+layout_mode = 0
+offset_left = 332.0
+offset_top = 176.0
+offset_right = 407.0
+offset_bottom = 199.0
+text = "FEBRERO:"
+
+[node name="MARZOFRANCO" type="Label" parent="MESESJOACO"]
+z_index = 1
+layout_mode = 0
+offset_left = 332.0
+offset_top = 208.0
+offset_right = 407.0
+offset_bottom = 231.0
+text = "MARZO:"
+
+[node name="ABRILFRANCO" type="Label" parent="MESESJOACO"]
+z_index = 1
+layout_mode = 0
+offset_left = 332.0
+offset_top = 240.0
+offset_right = 407.0
+offset_bottom = 263.0
+text = "ABRIL:"
+
+[node name="MAYOFRANCO" type="Label" parent="MESESJOACO"]
+z_index = 1
+layout_mode = 0
+offset_left = 332.0
+offset_top = 272.0
+offset_right = 407.0
+offset_bottom = 295.0
+text = "MAYO:"
+
+[node name="JUNIOFRANCO" type="Label" parent="MESESJOACO"]
+z_index = 1
+layout_mode = 0
+offset_left = 332.0
+offset_top = 304.0
+offset_right = 407.0
+offset_bottom = 327.0
+text = "JUNIO:"
+
+[node name="JULIOFRANCO" type="Label" parent="MESESJOACO"]
+z_index = 1
+layout_mode = 0
+offset_left = 332.0
+offset_top = 336.0
+offset_right = 407.0
+offset_bottom = 359.0
+text = "JULIO:"
+
+[node name="AGOSTOFRANCO" type="Label" parent="MESESJOACO"]
+z_index = 1
+layout_mode = 0
+offset_left = 332.0
+offset_top = 368.0
+offset_right = 407.0
+offset_bottom = 391.0
+text = "AGOSTO:"
+
+[node name="SEPTIEMBREFRANCO" type="Label" parent="MESESJOACO"]
+z_index = 1
+layout_mode = 0
+offset_left = 332.0
+offset_top = 400.0
+offset_right = 432.0
+offset_bottom = 423.0
+text = "SEPTIEMBRE:"
+
+[node name="OCTUBREFRANCO" type="Label" parent="MESESJOACO"]
+z_index = 1
+layout_mode = 0
+offset_left = 332.0
+offset_top = 432.0
+offset_right = 432.0
+offset_bottom = 455.0
+text = "OCTUBRE:"
+
+[node name="NOVIEMBREFRANCO" type="Label" parent="MESESJOACO"]
+z_index = 1
+layout_mode = 0
+offset_left = 332.0
+offset_top = 464.0
+offset_right = 432.0
+offset_bottom = 487.0
+text = "NOVIEMBRE:"
+
+[node name="DICIEMBREFRANCO" type="Label" parent="MESESJOACO"]
+z_index = 1
+layout_mode = 0
+offset_left = 332.0
+offset_top = 496.0
+offset_right = 432.0
+offset_bottom = 519.0
+text = "DICIEMBRE:"
+
+[node name="MESESFRANCO" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ENEROFRANCO" type="Label" parent="MESESFRANCO"]
+z_index = 1
+layout_mode = 0
+offset_left = 75.0
+offset_top = 144.0
+offset_right = 133.0
+offset_bottom = 167.0
+text = "ENERO:"
+
+[node name="FEBREROFRANCO" type="Label" parent="MESESFRANCO"]
+z_index = 1
+layout_mode = 0
+offset_left = 75.0
+offset_top = 176.0
+offset_right = 150.0
+offset_bottom = 199.0
+text = "FEBRERO:"
+
+[node name="MARZOFRANCO" type="Label" parent="MESESFRANCO"]
+z_index = 1
+layout_mode = 0
+offset_left = 75.0
+offset_top = 208.0
+offset_right = 150.0
+offset_bottom = 231.0
+text = "MARZO:"
+
+[node name="ABRILFRANCO" type="Label" parent="MESESFRANCO"]
+z_index = 1
+layout_mode = 0
+offset_left = 75.0
+offset_top = 240.0
+offset_right = 150.0
+offset_bottom = 263.0
+text = "ABRIL:"
+
+[node name="MAYOFRANCO" type="Label" parent="MESESFRANCO"]
+z_index = 1
+layout_mode = 0
+offset_left = 75.0
+offset_top = 272.0
+offset_right = 150.0
+offset_bottom = 295.0
+text = "MAYO:"
+
+[node name="JUNIOFRANCO" type="Label" parent="MESESFRANCO"]
+z_index = 1
+layout_mode = 0
+offset_left = 75.0
+offset_top = 304.0
+offset_right = 150.0
+offset_bottom = 327.0
+text = "JUNIO:"
+
+[node name="JULIOFRANCO" type="Label" parent="MESESFRANCO"]
+z_index = 1
+layout_mode = 0
+offset_left = 75.0
+offset_top = 336.0
+offset_right = 150.0
+offset_bottom = 359.0
+text = "JULIO:"
+
+[node name="AGOSTOFRANCO" type="Label" parent="MESESFRANCO"]
+z_index = 1
+layout_mode = 0
+offset_left = 75.0
+offset_top = 368.0
+offset_right = 150.0
+offset_bottom = 391.0
+text = "AGOSTO:"
+
+[node name="SEPTIEMBREFRANCO" type="Label" parent="MESESFRANCO"]
+z_index = 1
+layout_mode = 0
+offset_left = 75.0
+offset_top = 400.0
+offset_right = 175.0
+offset_bottom = 423.0
+text = "SEPTIEMBRE:"
+
+[node name="OCTUBREFRANCO" type="Label" parent="MESESFRANCO"]
+z_index = 1
+layout_mode = 0
+offset_left = 75.0
+offset_top = 432.0
+offset_right = 175.0
+offset_bottom = 455.0
+text = "OCTUBRE:"
+
+[node name="NOVIEMBREFRANCO" type="Label" parent="MESESFRANCO"]
+z_index = 1
+layout_mode = 0
+offset_left = 75.0
+offset_top = 464.0
+offset_right = 175.0
+offset_bottom = 487.0
+text = "NOVIEMBRE:"
+
+[node name="DICIEMBREFRANCO" type="Label" parent="MESESFRANCO"]
+z_index = 1
+layout_mode = 0
+offset_left = 75.0
+offset_top = 496.0
+offset_right = 175.0
+offset_bottom = 519.0
+text = "DICIEMBRE:"
+
+[node name="SPRITES" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Fondone" type="Sprite2D" parent="SPRITES"]
+position = Vector2(160, 362.5)
+scale = Vector2(0.75, 0.919922)
+texture = ExtResource("1_epc6e")
+
+[node name="Fondone2" type="Sprite2D" parent="SPRITES"]
+position = Vector2(416, 362.5)
+scale = Vector2(0.75, 0.919922)
+texture = ExtResource("1_epc6e")
+
+[node name="Fondone3" type="Sprite2D" parent="SPRITES"]
+position = Vector2(672, 362.5)
+scale = Vector2(0.75, 0.919922)
+texture = ExtResource("1_epc6e")
+
+[node name="Fondone4" type="Sprite2D" parent="SPRITES"]
+position = Vector2(928, 362.5)
+scale = Vector2(0.75, 0.919922)
+texture = ExtResource("1_epc6e")
+
+[node name="Fondone5" type="Sprite2D" parent="SPRITES"]
+position = Vector2(1184, 362.5)
+scale = Vector2(0.75, 0.919922)
+texture = ExtResource("1_epc6e")
+
+[node name="NOMBRES" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="NOMBRES"]
+layout_mode = 0
+offset_left = 85.0
+offset_top = 78.0
+offset_right = 230.0
+offset_bottom = 128.0
+theme_override_font_sizes/font_size = 36
+text = "FRANCO"
+
+[node name="Label2" type="Label" parent="NOMBRES"]
+layout_mode = 0
+offset_left = 358.0
+offset_top = 72.0
+offset_right = 503.0
+offset_bottom = 122.0
+theme_override_font_sizes/font_size = 36
+text = "JOACO"
+
+[node name="Label3" type="Label" parent="NOMBRES"]
+layout_mode = 0
+offset_left = 631.0
+offset_top = 76.0
+offset_right = 776.0
+offset_bottom = 126.0
+theme_override_font_sizes/font_size = 36
+text = "WAL"
+
+[node name="Label4" type="Label" parent="NOMBRES"]
+layout_mode = 0
+offset_left = 845.0
+offset_top = 76.0
+offset_right = 1016.0
+offset_bottom = 126.0
+theme_override_font_sizes/font_size = 36
+text = "AZQUIELY"
+
+[node name="Label5" type="Label" parent="NOMBRES"]
+layout_mode = 0
+offset_left = 1126.0
+offset_top = 76.0
+offset_right = 1271.0
+offset_bottom = 126.0
+theme_override_font_sizes/font_size = 36
+text = "MAURI"
+
+[node name="TOTALES" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TotalFranco" type="Label" parent="TOTALES"]
+layout_mode = 0
+offset_left = 76.0
+offset_top = 542.0
+offset_right = 236.0
+offset_bottom = 572.0
+theme_override_colors/font_color = Color(0.827451, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+text = "TOTAL:"
+
+[node name="TotalJoaco" type="Label" parent="TOTALES"]
+layout_mode = 0
+offset_left = 331.0
+offset_top = 542.0
+offset_right = 491.0
+offset_bottom = 572.0
+theme_override_colors/font_color = Color(0.827451, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+text = "TOTAL:"
+
+[node name="TotalWal" type="Label" parent="TOTALES"]
+layout_mode = 0
+offset_left = 588.0
+offset_top = 542.0
+offset_right = 748.0
+offset_bottom = 572.0
+theme_override_colors/font_color = Color(0.827451, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+text = "TOTAL:"
+
+[node name="TotalAzquiely" type="Label" parent="TOTALES"]
+layout_mode = 0
+offset_left = 844.0
+offset_top = 542.0
+offset_right = 1004.0
+offset_bottom = 572.0
+theme_override_colors/font_color = Color(0.827451, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+text = "TOTAL:"
+
+[node name="TotalMauri" type="Label" parent="TOTALES"]
+layout_mode = 0
+offset_left = 1100.0
+offset_top = 542.0
+offset_right = 1260.0
+offset_bottom = 572.0
+theme_override_colors/font_color = Color(0.827451, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+text = "TOTAL:"
+
+[node name="PROMEDIOS" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PromFranco" type="Label" parent="PROMEDIOS"]
+layout_mode = 0
+offset_left = 75.0
+offset_top = 567.0
+offset_right = 235.0
+offset_bottom = 597.0
+theme_override_colors/font_color = Color(0.827451, 0.94902, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+text = "PROMEDIO P/D:"
+
+[node name="PromJoaco" type="Label" parent="PROMEDIOS"]
+layout_mode = 0
+offset_left = 331.0
+offset_top = 567.0
+offset_right = 491.0
+offset_bottom = 597.0
+theme_override_colors/font_color = Color(0.827451, 0.94902, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+text = "PROMEDIO P/D:"
+
+[node name="PromWal" type="Label" parent="PROMEDIOS"]
+layout_mode = 0
+offset_left = 587.0
+offset_top = 567.0
+offset_right = 747.0
+offset_bottom = 597.0
+theme_override_colors/font_color = Color(0.827451, 0.94902, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+text = "PROMEDIO P/D:"
+
+[node name="PromAzq" type="Label" parent="PROMEDIOS"]
+layout_mode = 0
+offset_left = 843.0
+offset_top = 567.0
+offset_right = 1003.0
+offset_bottom = 597.0
+theme_override_colors/font_color = Color(0.827451, 0.94902, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+text = "PROMEDIO P/D:"
+
+[node name="PromMauri" type="Label" parent="PROMEDIOS"]
+layout_mode = 0
+offset_left = 1099.0
+offset_top = 567.0
+offset_right = 1259.0
+offset_bottom = 597.0
+theme_override_colors/font_color = Color(0.827451, 0.94902, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+text = "PROMEDIO P/D:"
+
+[node name="BUILD" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1303.0
+offset_top = 702.0
+offset_right = 1359.0
+offset_bottom = 725.0
+theme_override_font_sizes/font_size = 0
+text = "B: 1.0.5"
+
+[node name="TotalGral" type="Label" parent="."]
+layout_mode = 0
+offset_left = 63.0
+offset_top = 614.0
+offset_right = 927.0
+offset_bottom = 724.0
+theme_override_font_sizes/font_size = 40
+text = "TOTAL GENERAL:"
+
+[node name="PROMGRAL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 63.0
+offset_top = 667.0
+offset_right = 927.0
+offset_bottom = 777.0
+theme_override_font_sizes/font_size = 40
+text = "PROMEDIO GENERAL:"
+
+[node name="tiulo" type="Label" parent="."]
+layout_mode = 0
+offset_left = 512.0
+offset_top = -26.0
+offset_right = 811.0
+offset_bottom = 84.0
+theme_override_font_sizes/font_size = 63
+text = "RESUMEN"
+
+[node name="volver" type="Button" parent="."]
+layout_mode = 0
+offset_left = 32.0
+offset_top = -10.0
+offset_right = 112.0
+offset_bottom = 21.0
+text = "volver"
+
+[connection signal="pressed" from="volver" to="." method="_on_volver_pressed"]

@@ -1,0 +1,162 @@
+[gd_scene load_steps=3 format=3 uid="uid://hq0uptv6b78v"]
+
+[ext_resource type="Texture2D" uid="uid://bb7bhw5pkte4u" path="res://SPRITES/fondone.png" id="1_br4te"]
+[ext_resource type="Script" path="res://ESCENASELECCIONARMES/seleccionarmes.gd" id="1_mrukm"]
+
+[node name="Seleccionarmes" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mrukm")
+
+[node name="Fondone" type="Sprite2D" parent="."]
+position = Vector2(672, 384)
+scale = Vector2(3.75, 1.40625)
+texture = ExtResource("1_br4te")
+
+[node name="Titulo" type="Label" parent="."]
+layout_mode = 0
+offset_left = 381.0
+offset_top = 33.0
+offset_right = 957.0
+offset_bottom = 121.0
+theme_override_font_sizes/font_size = 63
+text = "SELECCIONAR MES"
+
+[node name="ENERO" type="Button" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 129.0
+offset_right = 792.0
+offset_bottom = 169.0
+text = "ENERO"
+
+[node name="FEBRERO" type="Button" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 177.0
+offset_right = 792.0
+offset_bottom = 217.0
+text = "FEBRERO
+"
+
+[node name="MARZO" type="Button" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 225.0
+offset_right = 792.0
+offset_bottom = 265.0
+text = "MARZO
+"
+
+[node name="ABRIL" type="Button" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 273.0
+offset_right = 792.0
+offset_bottom = 313.0
+text = "ABRIL
+"
+
+[node name="MAYO" type="Button" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 321.0
+offset_right = 792.0
+offset_bottom = 361.0
+text = "MAYO"
+
+[node name="JUNIO" type="Button" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 369.0
+offset_right = 792.0
+offset_bottom = 409.0
+text = "JUNIO"
+
+[node name="JULIO" type="Button" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 417.0
+offset_right = 792.0
+offset_bottom = 457.0
+text = "JULIO"
+
+[node name="AGOSTO" type="Button" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 465.0
+offset_right = 792.0
+offset_bottom = 505.0
+text = "AGOSTO
+"
+
+[node name="SEPTIEMBRE" type="Button" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 514.0
+offset_right = 792.0
+offset_bottom = 554.0
+text = "SEPTIEMBRE
+"
+
+[node name="OCTUBRE" type="Button" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 561.0
+offset_right = 792.0
+offset_bottom = 601.0
+text = "OCTUBRE
+"
+
+[node name="NOVIEMBRE" type="Button" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 608.0
+offset_right = 792.0
+offset_bottom = 648.0
+text = "NOVIEMBRE
+"
+
+[node name="DICIEMBRE" type="Button" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 656.0
+offset_right = 792.0
+offset_bottom = 696.0
+text = "DICIEMBRE
+"
+
+[node name="RESUMEN" type="Button" parent="."]
+layout_mode = 0
+offset_left = 853.0
+offset_top = 656.0
+offset_right = 1109.0
+offset_bottom = 696.0
+text = "RESUMEN "
+
+[node name="BUILD" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1304.0
+offset_top = 744.0
+offset_right = 1360.0
+offset_bottom = 767.0
+theme_override_font_sizes/font_size = 0
+text = "B: 1.0.5"
+
+[connection signal="pressed" from="ENERO" to="." method="_on_enero_pressed"]
+[connection signal="pressed" from="FEBRERO" to="." method="_on_febrero_pressed"]
+[connection signal="pressed" from="MARZO" to="." method="_on_marzo_pressed"]
+[connection signal="pressed" from="ABRIL" to="." method="_on_abril_pressed"]
+[connection signal="pressed" from="MAYO" to="." method="_on_mayo_pressed"]
+[connection signal="pressed" from="JUNIO" to="." method="_on_junio_pressed"]
+[connection signal="pressed" from="JULIO" to="." method="_on_julio_pressed"]
+[connection signal="pressed" from="AGOSTO" to="." method="_on_agosto_pressed"]
+[connection signal="pressed" from="SEPTIEMBRE" to="." method="_on_septiembre_pressed"]
+[connection signal="pressed" from="OCTUBRE" to="." method="_on_octubre_pressed"]
+[connection signal="pressed" from="NOVIEMBRE" to="." method="_on_noviembre_pressed"]
+[connection signal="pressed" from="DICIEMBRE" to="." method="_on_diciembre_pressed"]
+[connection signal="pressed" from="RESUMEN" to="." method="_on_resumen_pressed"]
